@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+
+/*  *astrics means to do something to everything */
+
+/* *{
+    border: 3px gray;
+    border-style: dotted;
+    Border-color: rgba(209, 235, 63, 0.199);
+    padding: 6px;
+} */
 
 html {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Corinthia', cursive;
     background-color: #fff;
 }
 
@@ -11,18 +21,23 @@ body {
 
 header {
     text-align: center;
-    background-color: #6b469a;
-    padding: 10px;
+    background-color: #1d4b4a;
+    /* background-color: #6b469a; */
+    padding: 20px;
+    margin: 20px;
+    /* background-color: lightcoral;*/
+    font-family: Corinthia';    
+    font-size: 20px; 
 }
 
 h1 {
-    font-size: 2.5rem;
-    line-height: 2.5rem;;
+    font-size: 12rem;
+    line-height: 12rem;;
     color: #fff;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 6rem;
     line-height: 3rem;
     color: #fff;
 }
@@ -64,3 +79,27 @@ footer {
 }
 
 /* Your code here */
+nav a {    
+    display: block;
+}
+
+/* width: 200px | 50% | 20em | auto; */
+/* height: 200px | 50% | 20em | auto; */ 
+
+nav {
+    width: 200px;
+}
+
+#main_img {
+    width: 60%;
+    height: 50%;
+    border: 3px dashed orange;
+}
+
+/* margin: <top> <right> <bottom> <left>;
+padding: <top> <right> <bottom> <left>; */
+
+/* header {
+    margin: 20px;
+    padding: 20px;
+} */
