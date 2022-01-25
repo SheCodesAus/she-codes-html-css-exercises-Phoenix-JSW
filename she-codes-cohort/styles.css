@@ -109,11 +109,10 @@ main {
 }
 
 footer p {
-    /* background-color: red;
-    display: flex;
+    display: block;
     text-align: center;
     justify-items: flex-end;
-    ; */
+
 }
 
 /* active, howver, focus states styling */
